@@ -169,7 +169,7 @@ py文件间的依赖
 
    <center>
 
-
+.. image::  images/graphviz.png
 
 图八 py文件间的依赖关系图
 
@@ -184,9 +184,11 @@ function间的依赖
 
    <center>
 
-
+.. image:: images/mermaid-diagram.png
 
 图九 类和函数间的依赖关系图
+
+注：由于svg文件此处无法上传，因此暂时用png格式图片代替，svg文件将另外单独上传至LRR中
 
 .. raw:: html
 
@@ -194,7 +196,17 @@ function间的依赖
 
 实验总结
 ------------------
+对于EnglishPal项目的健康程度进行分析，我们认为EnglishPal项目的健康程度可以打为85分（满分100分），其中详细优点与缺如下：
 
+**优点：**
+
+1. EnglishPal项目的整体复杂度并不高，整个项目中包含的python文件并不是特别多；
+2. 各个模块或者函数之间调用的调用并不复杂，并且不太存在多重调用的情况，整个调用的广度大，深度小。
+
+**缺点：**
+
+1. 存在两个比较相似的文件，并且这两个文件内的大部分函数非常相似，基本功能一致，因此存在冗余问题；
+2. 项目整体架构仍然是常规模式，没有使用特定的组织良好的软件架构。
 
 实验代码
 ------------------
@@ -324,40 +336,4 @@ Snakefood生成的dot文件
 ------------------
 1. Harry Percival and Bob Gregory. Architecture Patterns with Python. O’Reilly Media; 1st edition (March 31, 2020)
 2. Alex Papadimoulis 《Enterprise Dependency: Big Ball of Yarn》
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
