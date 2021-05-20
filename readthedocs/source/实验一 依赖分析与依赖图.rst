@@ -169,7 +169,7 @@ py文件间的依赖
 
    <center>
 
-.. image::  images/graphviz.svg
+
 
 图八 py文件间的依赖关系图
 
@@ -184,7 +184,7 @@ function间的依赖
 
    <center>
 
-.. image::  images/mermaid-diagram.svg
+
 
 图九 类和函数间的依赖关系图
 
