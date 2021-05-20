@@ -12,7 +12,7 @@ Welcome to EnglishPal's documentation!
 201836900115    诸斯涔    1229150204@qq.com
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 0
    :caption: 目录：
 
    实验一 依赖分析与依赖图
