@@ -1,12 +1,6 @@
 Welcome to EnglishPal's documentation!
 ======================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: 目录：
-
-   实验一 依赖分析与依赖图
-
 我们的成员信息
 --------------------
 201836900114    朱文琦    214660032@qq.com
@@ -16,3 +10,10 @@ Welcome to EnglishPal's documentation!
 201836900113    许璐怡    2312829115@qq.com
 
 201836900115    诸斯涔    1229150204@qq.com
+
+.. toctree::
+   :maxdepth: 2
+   :caption: 目录：
+
+   实验一 依赖分析与依赖图
+
