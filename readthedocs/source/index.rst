@@ -3,7 +3,7 @@ Welcome to EnglishPal's documentation!
 
 ::
 
-    我们的成员信息
+    **我们的成员信息**
 
     201836900114    朱文琦    214660032@qq.com
 
